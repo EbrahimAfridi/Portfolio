@@ -5,29 +5,35 @@ import linkedin from '../assets/icons/icons8-linkedin (1).svg'
 
 function ReachOut(){
     return(
-        <div className="grid grid-cols-2 gap-2 m-16 mb-24">
-            <div className="grid grid-rows-3">
-                <p className="mt-4 mb-12 text-4xl font-bold selection:bg-black selection:text-white">Just say hi.</p>
-                <p className="mb-12 mr-32 text-xl selection:bg-black selection:text-white">I'm always open to discuss your project and talk about new things.</p>
-                <div className="grid grid-cols-2 mt-8 selection:bg-black selection:text-white">
+        <div className="grid gap-2 m-16 mt-20 mb-24 gird-rows-2 sm:grid-cols-2">
+            <div className="grid ">
+                <p className="mt-4 mb-12 text-4xl font-bold selection:bg-black selection:text-white">
+                    Just say hi.
+                </p>
+                <p className="text-xl leading-relaxed sm:mr-32 sm:mb-12 selection:bg-black selection:text-white">
+                    I'm always open to discuss your project and talk about new things.
+                </p>
+                <div className="grid mt-8 sm:grid-cols-2 selection:bg-black selection:text-white">
                     <div>
-                        <p className="mb-4 font-thin">Mail me at</p>
-                        <a href="http://gmail.com" target="_blank" rel="noopener noreferrer">afridiebrahimck@gmail.com</a>
+                        <p className="mb-2 font-thin sm:mb-4">Mail me at</p>
+                        <a href="http://gmail.com" target="_blank" rel="noopener noreferrer">
+                            afridiebrahimck@gmail.com
+                        </a>
                     </div>
                     <div>
-                        <p className="mb-3 font-thin">Follow me</p>
-                        <div className="flex flex-row items-center gap-5 select-none ">
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                <img src={linkedin} alt="" />
+                        <p className="mt-4 mb-3 font-thin sm:mt-0">Follow me</p>
+                        <div className="flex flex-row items-center gap-5 mb-20 select-none sm:mb-0 ">
+                            <a href="https://www.linkedin.com/in/ebrahim-afridi-83188b219/" target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin} alt="linkedin logo" />
                             </a>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                <img src={github} alt="" />
+                            <a href="https://github.com/EbrahimAfridi" target="_blank" rel="noopener noreferrer">
+                                <img src={github} alt="github logo" />
                             </a>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                <img src={twitter} alt="" />
+                            <a href="https://twitter.com/EbrahimAfridi3" target="_blank" rel="noopener noreferrer">
+                                <img src={twitter} alt="twitter logo" />
                             </a>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                <img src={instagram} alt="" />
+                            <a href="https://www.instagram.com/ebrahim_afridi12/" target="_blank" rel="noopener noreferrer">
+                                <img src={instagram} alt="instagram logo" />
                             </a>
                         </div>
                     </div>
