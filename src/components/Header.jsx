@@ -1,9 +1,12 @@
 
 function Header () {
     return(
-        <div className="flex items-center justify-between px-20 py-10 ">
-            <img className="hover:cursor-pointer" src="../../public/vite.svg" alt="Logo" />
-            <div className="flex gap-6 hover:cursor-pointer justify-evenly">
+        <div className="items-center justify-between hidden px-12 py-5 sm:flex sm:py-10 sm:px-20 selection:bg-black selection:text-white">
+           
+            <img className="select-none hover:cursor-pointer" src="../../public/vite.svg" alt="Logo" />
+           
+            {/* Right Part */}
+            <div className="flex sm:gap-6 hover:cursor-pointer justify-evenly">
                 <a href="#" rel="noopener noreferrer">
                 <span className="hover:underline underline-offset-4">Home</span>
                 </a>

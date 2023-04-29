@@ -9,28 +9,28 @@ import git from '../assets/icons/git-svgrepo-com.svg'
 
 function Skills(){
     return(
-        <div className='p-5 m-16'>
+        <div className='p-5 m-16 selection:bg-black selection:text-white'>
             <p className='mb-10 text-4xl font-black '>Skills</p>
             
             <div className='grid grid-cols-3 gap-12 md:grid-flow-row'>
                 <div className='col-span-1'>
-                    <img className='inline mr-4' src={html} alt="" />
-                    <p className='inline text-lg'>HTML 5</p>
+                    <img className='inline mr-4 select-none' src={html} alt="" />
+                    <p className='inline text-lg '>HTML 5</p>
                 </div>
                 <div className='col-span-1 '>
-                    <img className='inline mr-4' src={css} alt="" />
-                    <p className='inline text-lg'>CSS 3</p>
+                    <img className='inline mr-4 select-none' src={css} alt="" />
+                    <p className='inline text-lg '>CSS 3</p>
                 </div>
                 <div className='col-span-1'>
-                    <img className='inline mr-4' src={tailwind} alt="" />
+                    <img className='inline mr-4 select-none' src={tailwind} alt="" />
                     <p className='inline text-lg'>Tailwind</p>
                 </div>
                 <div className="col-span-1 ">
-                    <img className='inline mr-4' src={javascript} alt="" />
+                    <img className='inline mr-4 select-none' src={javascript} alt="" />
                     <p className='inline text-lg'>JavaScript</p>
                 </div>
                 <div className='col-span-1 '>
-                    <img className='inline mr-4' src={react} alt="" />
+                    <img className='inline mr-4 select-none' src={react} alt="" />
                     <p className='inline text-lg'>React</p>
                 </div>
             </div>
@@ -39,15 +39,15 @@ function Skills(){
             
             <div className='grid grid-cols-3 gap-12 md:grid-flow-row'>
                 <div className='col-span-1 '>
-                    <img className='inline mr-4' src={git} alt="" />
+                    <img className='inline mr-4 select-none' src={git} alt="" />
                     <p className='inline text-lg'>Git</p>
                 </div>
                 <div className='col-span-1 '>
-                    <img className='inline mr-4' src={linux} alt="" />
-                    <p className='inline text-lg'>Linux</p>
+                    <img className='inline mr-4 select-none' src={linux} alt="" />
+                    <p className='inline text-lg '>Linux</p>
                 </div>
                 <div className='col-span-1 '>
-                    <img className='inline mr-4' src={bash} alt="" />
+                    <img className='inline mr-4 select-none' src={bash} alt="" />
                     <p className='inline text-lg'>Bash</p>
                 </div>
             </div>

@@ -7,16 +7,16 @@ function ReachOut(){
     return(
         <div className="grid grid-cols-2 gap-2 m-16 mb-24">
             <div className="grid grid-rows-3">
-                <p className="mt-4 mb-12 text-4xl font-bold">Just say hi.</p>
-                <p className="mb-12 mr-32 text-xl">I'm always open to discuss your project and talk about new things.</p>
-                <div className="grid grid-cols-2 mt-8">
+                <p className="mt-4 mb-12 text-4xl font-bold selection:bg-black selection:text-white">Just say hi.</p>
+                <p className="mb-12 mr-32 text-xl selection:bg-black selection:text-white">I'm always open to discuss your project and talk about new things.</p>
+                <div className="grid grid-cols-2 mt-8 selection:bg-black selection:text-white">
                     <div>
                         <p className="mb-4 font-thin">Mail me at</p>
                         <a href="http://gmail.com" target="_blank" rel="noopener noreferrer">afridiebrahimck@gmail.com</a>
                     </div>
                     <div>
                         <p className="mb-3 font-thin">Follow me</p>
-                        <div className="flex flex-row items-center gap-5">
+                        <div className="flex flex-row items-center gap-5 select-none ">
                             <a href="http://" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedin} alt="" />
                             </a>
@@ -36,7 +36,7 @@ function ReachOut(){
             </div>
             
             {/* Black Box */}
-            <div className='bg-[#212121] p-8'>
+            <div className='selection:bg-black selection:text-white bg-[#212121] p-8'>
                 <div>
                     <input type="text" placeholder='Your name' className='placeholder:text-[#F1F1F1] text-sm text-[#F1F1F1] bg-transparent w-full outline-none ' />
                     <hr className='mt-1 mb-6 text-[#F1F1F1]'/>
@@ -50,7 +50,7 @@ function ReachOut(){
                     <hr className='mt-1 mb-6 text-[#F1F1F1]'/>
                 </div>
                 <div>
-                    <input type="text" placeholder='Your project description' className='placeholder:text-[#F1F1F1] text-sm text-[#F1F1F1] bg-transparent w-full outline-none ' />
+                    <input type="text" placeholder='Your project description' className=' placeholder:text-[#F1F1F1] text-sm text-[#F1F1F1] bg-transparent w-full outline-none ' />
                     <hr className='mt-16 mb-6 text-[#F1F1F1]'/>
                 </div>
                 <div className='flex flex-row-reverse'>

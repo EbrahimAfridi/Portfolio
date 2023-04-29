@@ -2,7 +2,7 @@
 
 function Experience(){
     return(
-        <div className="p-5 m-16 mb-24">
+        <div className="p-5 m-16 mb-24 selection:bg-black selection:text-white">
             <p className="mb-12 text-4xl font-extrabold">Experience</p>
             <div className="flex flex-col">
                 <p className="text-2xl font-medium">Community Leader - Google Developers Student Clubs (2022 - Present)</p>
